@@ -25,3 +25,10 @@ new changes and commits to files without affecting copies of those files on othe
 Branches are helpful, for example, when you want to create a new feature, but you want to
 preserve a copy of the original code and continue to work on it indenpendently of the branch
 containing the new feature.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a local copy of the last known state of the remote allows you to compare the current
+state of the remote with the state of the remote in your repository. You can then tell
+if any changes have occurred in the remote since you last synced.  This allows git to merge
+the remote into your local repository and merge (or identify conflicts) as necessary.

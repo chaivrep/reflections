@@ -29,3 +29,9 @@ to the final product, or when you want to create a new version of your project.
 Branches allow you to work on the new feature or version of the project without
 affecting the master branch. This allows you to jump back and forth between
 branches as needed.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help to show which commits are reachable on each branch, as well as
+which commits are unreachable.  They also allow you to see which commit is at the
+tip of each branch, and the parent of each commit. 

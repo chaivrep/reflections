@@ -34,4 +34,13 @@ How do the diagrams help you visualize the branch structure?
 
 The diagrams help to show which commits are reachable on each branch, as well as
 which commits are unreachable.  They also allow you to see which commit is at the
-tip of each branch, and the parent of each commit. 
+tip of each branch, and the parent of each commit.
+
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+Merging two branches together compares the changes made in each branch from their
+common parent, and then merges those changes together.  The result is a new commit
+that incporporates both sets of changes.  This commit now has 2 parents, and so
+we show both parents in the diagram.  However, when we run 'git log', we'll
+just see the commits from both branches ordered by timestamp.

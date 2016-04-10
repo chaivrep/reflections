@@ -11,3 +11,12 @@ The staging area is different from the working area in that it can contain just 
 subset of your files.  It's different from the repository in that it contains
 uncommitted versions of files. The staging area is valuable because it allows you
 to group your existing files into logical groupings prior to committing them.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area includes all files that will be included when you make the next
+commit.  You can compare the staging area to the working area using git diff (with no
+arguments).  This allows you to determine if there are any other files in the working area
+that should be staged, or any staged files that don't logically fit with the other
+staged files.  You can then move files to/from the staging area to create a logical
+grouping for the commit.

@@ -20,3 +20,12 @@ arguments).  This allows you to determine if there are any other files in the wo
 that should be staged, or any staged files that don't logically fit with the other
 staged files.  You can then move files to/from the staging area to create a logical
 grouping for the commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches can be helpful when working on new features that may or may not be added
+to the final product, or when you want to create a new version of your project.  
+Branches allow you to work on the new feature or version of the project without
+affecting the master branch. This allows you to jump back and forth between
+branches as needed.

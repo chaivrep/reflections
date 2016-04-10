@@ -44,3 +44,11 @@ common parent, and then merges those changes together.  The result is a new comm
 that incporporates both sets of changes.  This commit now has 2 parents, and so
 we show both parents in the diagram.  However, when we run 'git log', we'll
 just see the commits from both branches ordered by timestamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging simplifies merges when the changes don't conflict.  Always doing manual
+merges would require the user to review the code themselves every time a merge was executed.
+Automatic merging has a downside, however, in that the user isn't able to control how
+the files are merged.  There may be some redundant code between the two branches, or the
+user might have wanted to organize the code in the merged file differently.

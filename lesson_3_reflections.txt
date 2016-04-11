@@ -32,3 +32,13 @@ Having a local copy of the last known state of the remote allows you to compare 
 state of the remote with the state of the remote in your repository. You can then tell
 if any changes have occurred in the remote since you last synced.  This allows git to merge
 the remote into your local repository and merge (or identify conflicts) as necessary.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+
+You could collaborate by emailing each other copies of your files.  This would be easier in
+that there would be no learning curve for Git or Github, but it would be harder in that you'd
+have to always manually merge your files and send out the latest version any time the file
+changed.  You could also share files via Google docs and edit them jointly online, but you would
+likley often end up with files that don't compile, because someone would be in the middle of
+working on something when the compilation was attempted.

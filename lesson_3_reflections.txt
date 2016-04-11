@@ -42,3 +42,10 @@ have to always manually merge your files and send out the latest version any tim
 changed.  You could also share files via Google docs and edit them jointly online, but you would
 likley often end up with files that don't compile, because someone would be in the middle of
 working on something when the compilation was attempted.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+By making changes in a separate branch, you can allow others to review your work before
+merging the changes into master.  Making the changes directly in master can be a bit
+faster and more straightforward, but you lose out on the collaborative aspect.
